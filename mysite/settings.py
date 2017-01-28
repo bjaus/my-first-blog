@@ -25,7 +25,7 @@ SECRET_KEY = 'yw$$&f8uvjky%_1e=xcap1f_#%e6bw)9ikjjov#s$hlohiuam8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bjaus.pythonanywhere.com']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'bjaus.pythonanywhere.com',
 ]
 
 MIDDLEWARE = [
